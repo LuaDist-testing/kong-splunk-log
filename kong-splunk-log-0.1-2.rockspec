@@ -1,8 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "kong-splunk-log"
 version = "0.1-2"
+-- LuaDist source
 source = {
-   url = "git+https://github.com/Optum/kong-splunk-log.git"
+  tag = "0.1-2",
+  url = "git://github.com/LuaDist-testing/kong-splunk-log.git"
 }
+-- Original source
+-- source = {
+--    url = "git+https://github.com/Optum/kong-splunk-log.git"
+-- }
 description = {
    summary = "Kong plugin designed to log API transactions to Splunk",
    detailed = [[
